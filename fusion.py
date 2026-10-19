@@ -74,3 +74,4 @@ def prediction_views(global_z: np.ndarray, trend_z: np.ndarray, fold_mean: np.nd
     views["alpha_0.75"] = shape_fusion(direct, secondary, alpha=0.75)
     views["primary"] = views["fusion"]
     return views, pcc_sources
+

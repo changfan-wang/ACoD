@@ -1,0 +1,19 @@
+{
+  "gene_dim": 171,
+  "backbone_name": "densenet121",
+  "imagenet_pretrained": false,
+  "normalize_imagenet": true,
+  "shared_dim": 384,
+  "branch_dim": 256,
+  "decoder_hidden": 512,
+  "dropout": 0.12,
+  "context_dim": 1024,
+  "attention_heads": 4,
+  "max_neighbors": 32,
+  "neighbor_dropout": 0.15,
+  "max_adaptive_mix": 0.7,
+  "max_context_strength": 0.8,
+  "ring_fusion_mode": "adaptive",
+  "context_mode": "full",
+  "coordinate_mode": "dual"
+}
